@@ -298,7 +298,7 @@ const EASI = () => {
           <div className="mt-5 mb-4 text-end visit-website-block">
             <a
               className="btn-visit-website"
-              href="https://github.com/winyann21/easi_app"
+              href="https://github.com/2oofine/easi_app"
               target="_blank"
             >
               <FontAwesomeIcon icon={faGithub} /> Visit Repository
