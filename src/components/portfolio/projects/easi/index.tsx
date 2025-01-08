@@ -258,30 +258,6 @@ const EASI = () => {
             >
               <img
                 className="img-in-carousel d-block"
-                src={Easi1}
-                alt="Easi1"
-                style={{
-                  position: "relative",
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  maxWidth: "100%",
-                  height: "auto",
-                }}
-              />
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                maxWidth: "40%",
-                margin: "auto",
-              }}
-            >
-              <img
-                className="img-in-carousel d-block"
                 src={Easi10}
                 alt="Easi10"
                 style={{

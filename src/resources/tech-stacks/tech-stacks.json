@@ -46,5 +46,29 @@
   {
     "name": "Git",
     "icon": "git.svg"
+  },
+  {
+    "name": "Oracle",
+    "icon": "oracle.svg"
+  },
+  {
+    "name": "Java",
+    "icon": "java.svg"
+  },
+  {
+    "name": "JQuery",
+    "icon": "jquery.svg"
+  },
+  {
+    "name": "Apache Velocity",
+    "icon": "velocity.svg"
+  },
+  {
+    "name": "Tomcat",
+    "icon": "tomcat.svg"
+  },
+  {
+    "name": "FreeMarker",
+    "icon": "freemarker.svg"
   }
 ]

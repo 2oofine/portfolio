@@ -49,23 +49,6 @@ const HeaderSection = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-
-          {/* <Nav className="mr-auto">
-            <Nav.Link href="#tech-stack">TECH STACK</Nav.Link>
-            <Nav.Link href="#projects">PROJECTS</Nav.Link>
-            <Nav.Link href="#contact">CONTACT</Nav.Link>
-          </Nav>
-          <Nav className="mr-auto">
-            <Nav.Link
-              href="https://linkedin.com/in/sherwin-romero"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
-            </Nav.Link>
-            <Nav.Link href="mailto:it.sherwinromero@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} size="lg" />
-            </Nav.Link>
-          </Nav> */}
         </Container>
       </Navbar>
     </header>

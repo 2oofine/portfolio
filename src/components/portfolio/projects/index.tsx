@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import EASI from "./easi";
 import SaaSConsole from "./saasconsole";
 import "./styles.scss";
+import MCISELearning from "./mcis-elearning";
 
 const ProjectsSection = () => {
   return (
@@ -14,6 +15,7 @@ const ProjectsSection = () => {
         </div>
         <div className="projects">
           <SaaSConsole />
+          <MCISELearning />
           <EASI />
         </div>
         <div className="more-projects-to-come text-center mt-5">
