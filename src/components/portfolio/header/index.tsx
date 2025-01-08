@@ -41,7 +41,7 @@ const HeaderSection = () => {
               >
                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
               </Nav.Link>
-              <Nav.Link href="https://github.com/winyann21" target="_blank">
+              <Nav.Link href="https://github.com/2oofine" target="_blank">
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </Nav.Link>
               <Nav.Link href="mailto:it.sherwinromero@gmail.com">
