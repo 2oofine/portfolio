@@ -14,7 +14,7 @@ const TechStackSection = () => {
       <Container>
         <div className="tech-stack-title w-100 text-center mb-5">
           <h1>My Tech Stack</h1>
-          <p>Explore My Tech Universe</p>
+          <p>Technologies I've Worked With</p>
         </div>
         <div className="tech-stacks">
           {techStacks.map((techStack: TechStackInterface, idx) => {
