@@ -4,6 +4,7 @@ import EASI from "./easi";
 import SaaSConsole from "./saasconsole";
 import "./styles.scss";
 import MCISELearning from "./mcis-elearning";
+import PERNWorkouts from "./pern-workouts";
 
 const ProjectsSection = () => {
   return (
@@ -16,6 +17,7 @@ const ProjectsSection = () => {
         <div className="projects">
           <SaaSConsole />
           <MCISELearning />
+          <PERNWorkouts />
           <EASI />
         </div>
         <div className="more-projects-to-come text-center mt-5">
