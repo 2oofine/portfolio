@@ -32,7 +32,7 @@ const PERNWorkouts = () => {
       <Col md={5}>
         <div className="project-title m-0">
           <h2 className="mt-3 mb-0">PERN Workouts</h2>
-          <p className="mb-3">Project</p>
+          <p className="mb-3">Personal Project</p>
         </div>
         <div className="project-content mb-3">
           <p>
