@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Carousel, Col } from "react-bootstrap";
 import PERN1 from "../../../../assets/imgs/pern-workouts/1.jpg";
+import PERN2 from "../../../../assets/imgs/pern-workouts/2.jpg";
 
 const PERNWorkouts = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -27,6 +28,13 @@ const PERNWorkouts = () => {
               alt="PERN1"
             />
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="img-in-carousel d-block w-100"
+              src={PERN2}
+              alt="PERN2"
+            />
+          </Carousel.Item>
         </Carousel>
       </Col>
       <Col md={5}>
@@ -45,12 +53,13 @@ const PERNWorkouts = () => {
             >
               NetNinja
             </a>{" "}
-            but built with PERN stack with TypeScript.
+            but built with PERN stack with TypeScript and Postgres.
           </p>
 
           <p>
             {"> "} Tech Stack used: <b>Postgres</b>, <b>Express JS</b>,{" "}
-            <b>React/TypeScript</b>, <b>Node JS</b>.
+            <b>React/TypeScript</b>, <b>Node JS</b>, <b>React Context</b>,{" "}
+            <b>JWT Auth</b>.
           </p>
 
           <div className="mt-5 mb-4 text-end visit-website-block">
