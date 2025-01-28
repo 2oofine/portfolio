@@ -62,16 +62,6 @@ const PERNWorkouts = () => {
             <b>React/TypeScript</b>, <b>Node JS</b>, <b>React Context</b>,{" "}
             <b>JWT Auth</b>, <b>Vercel</b>.
           </p>
-          <div className="mt-5 text-end visit-website-block">
-            <a
-              className="btn-visit-website"
-              href="https://pern-workouts.vercel.app/"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon={faGlobe} /> Visit Website
-            </a>
-          </div>
-
           <div className="mt-5 mb-4 text-end visit-website-block">
             <a
               className="btn-visit-website"
@@ -79,6 +69,15 @@ const PERNWorkouts = () => {
               target="_blank"
             >
               <FontAwesomeIcon icon={faGithub} /> Visit Repository
+            </a>
+          </div>
+          <div className="text-end visit-website-block">
+            <a
+              className="btn-visit-website"
+              href="https://pern-workouts.vercel.app/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGlobe} /> Visit Website
             </a>
           </div>
         </div>
