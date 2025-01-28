@@ -1,3 +1,4 @@
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
@@ -44,8 +45,8 @@ const PERNWorkouts = () => {
         </div>
         <div className="project-content mb-3">
           <p>
-            {"> "} A simple application that keeps track of your workouts built
-            with PERN stack. Insipired by a tutorial by{" "}
+            {"> "} A simple application that keeps track of your todo workouts
+            built with PERN stack. Insipired by a tutorial by{" "}
             <a
               style={{ color: "#007bff" }}
               href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE"
@@ -57,10 +58,19 @@ const PERNWorkouts = () => {
           </p>
 
           <p>
-            {"> "} Tech Stack used: <b>Postgres</b>, <b>Express JS</b>,{" "}
+            {"> "} Tech Stack used: <b>Postgres/Supabase</b>, <b>Express JS</b>,{" "}
             <b>React/TypeScript</b>, <b>Node JS</b>, <b>React Context</b>,{" "}
-            <b>JWT Auth</b>.
+            <b>JWT Auth</b>, <b>Vercel</b>.
           </p>
+          <div className="mt-5 text-end visit-website-block">
+            <a
+              className="btn-visit-website"
+              href="https://pern-workouts.vercel.app/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGlobe} /> Visit Website
+            </a>
+          </div>
 
           <div className="mt-5 mb-4 text-end visit-website-block">
             <a
