@@ -27,53 +27,25 @@ const SaaSConsole = () => {
           onMouseLeave={() => setIsHovered(false)}
         >
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleDashboard}
-              alt="Dashboard"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleDashboard} alt="Dashboard" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsolePeople}
-              alt="Peoples"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsolePeople} alt="Peoples" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleGroups}
-              alt="Groups"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleGroups} alt="Groups" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleDepts}
-              alt="Departments"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleDepts} alt="Departments" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleActs}
-              alt="Activities"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleActs} alt="Activities" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleIntegs}
-              alt="Integrations"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleIntegs} alt="Integrations" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="img-in-carousel d-block w-100"
-              src={SaaSConsoleRBAC}
-              alt="RBAC"
-            />
+            <img className="img-in-carousel d-block w-100" src={SaaSConsoleRBAC} alt="RBAC" />
           </Carousel.Item>
         </Carousel>
       </Col>
@@ -88,20 +60,16 @@ const SaaSConsole = () => {
             <b>fast & easy SaaS management and manages groups of users</b>.
           </p>
           <p>
-            {"> "} Integrated SaaS applications such as: <b>Google Cloud</b>,{" "}
-            <b>Slack</b>, <b>Asana</b>, <b>Hootsuite</b>, and <b>Bitbucket</b>.
+            {"> "} Integrated SaaS applications such as: <b>Google Cloud</b>, <b>Slack</b>, <b>Asana</b>,{" "}
+            <b>Hootsuite</b>, and <b>Bitbucket</b>.
           </p>
 
           <p>
-            {"> "} Tech Stack used: <b>React.js</b>, <b>TypeScript</b>,{" "}
-            <b>Bootstrap</b>, <b>Golang</b>, <b>AWS DynamoDB</b>.
+            {"> "} Tech Stack used: <b>React.js</b>, <b>TypeScript</b>, <b>Redux</b>, <b>Bootstrap</b>, <b>Golang</b>,{" "}
+            <b>AWS DynamoDB</b>.
           </p>
           <div className="mt-5 text-end visit-website-block">
-            <a
-              className="btn-visit-website"
-              href="https://saasconsole.com"
-              target="_blank"
-            >
+            <a className="btn-visit-website" href="https://saasconsole.com" target="_blank">
               <FontAwesomeIcon icon={faGlobe} /> Visit Website
             </a>
           </div>
