@@ -1,5 +1,5 @@
 import { faFacebookSquare, faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faMobilePhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Nav } from "react-bootstrap";
 import "./styles.scss";
